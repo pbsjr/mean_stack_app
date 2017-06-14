@@ -1,0 +1,23 @@
+{
+  "name": "meanstackapp",
+  "version": "1.0.0",
+  "description": "Mean Stack CRUD App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "body-parser":"*",
+    "mongoose": "*",
+    "nodemon": "^1.11.0",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Paul Sheldon",
+  "license": "ISC"
+}
